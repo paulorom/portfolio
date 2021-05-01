@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.navbar {
+  background: transparent !important;
+  /*height: 10.25rem;*/
+  transition: .6s;
+  z-index: 2 !important;
+}
+
+.navbar-menu a.navbar-item {
+  color: #fff;
+  font-size: 13px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand a.navbar-item {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 43px !important;
+  color: #fff !important;
+  margin-right: 30px;
+  margin-top: -8px;
+}
+
+.navbar-brand a.navbar-item span {
+  color: #ffcf20 !important;
+}
+
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+  background-color: transparent;
+  color: #ffcf20;
+}
+
+.register {
+  width: unset !important;
+  padding: 14px 20px !important;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.navbar-burger {
+  color: #ffffff;
+  height: 4.55rem;
+  width: 4.55rem;
+}
+
+.navbar-burger span {
+  height: 3px;
+  left: calc(50% - 14px);
+  width: 28px;
+}
+
+.navbar-burger span:nth-child(1) {
+  top: calc(50% - 13px);
+}
+
+.navbar-burger span:nth-child(2) {
+  top: calc(50% - 3px);
+  left: calc(50% - 20px);
+  width: 34px;
+}
+
+.navbar-burger span:nth-child(3) {
+  top: calc(50% + 7px);
+}
+
+.fixed-nav {
+  width: 100%;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  background: rgba(0,0,0, 0.9) !important;
+  transition: .6s; 
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar-menu.is-active {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #030a14, rgb(3, 17, 28) 39%, rgba(5, 37, 52, 0.3) 100%) #0e2746;
+  }
+
+  .navbar-menu a.navbar-item {
+    padding: 1.5rem 1.5rem !important;
+    text-align: center;
+  }
+
+  .navbar-brand .navbar-item {
+    margin: 0 auto !important;
+  }
+
+  .fixed-nav {    
+    position: absolute;
+    min-height: 6rem !important;
+  }
+
+  .navbar {
+    background: transparent !important;
+    /*min-height: 8.25rem;*/
+  }
+}
+
+
+

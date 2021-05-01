@@ -1,0 +1,48 @@
+.FooterComponent {
+  padding: 50px 0;
+  background-image: linear-gradient(135deg, #07021c 0%, #1f3042 50%, #244b6e 100%) !important;
+  color: #919eb7;
+
+
+  .navbar-brand a.navbar-item {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 43px !important;
+    color: #fff !important;
+    margin-right: 30px;
+    margin-top: -8px;
+  }
+  
+  .navbar-brand a.navbar-item span {
+    color: #ffcf20 !important;
+  }
+
+  a {
+    color: inherit;
+    &:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+
+  .brand {
+    img {
+      height: 32px;
+    }
+  }
+
+  .social {
+    align-items: center;
+    a:not(:first-of-type) {
+      margin-left: 30px;
+    }
+  }
+
+  .links {
+    a:not(:first-of-type) {
+      margin-left: 15px;
+    }
+  }
+
+}
+
+.disclosure {font-size: 11px}

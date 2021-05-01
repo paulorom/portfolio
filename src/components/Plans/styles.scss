@@ -1,0 +1,184 @@
+.PricingTable {
+ padding: 160px 0;
+ min-height: calc(100vh - 320px);
+ background: #6D6027; 
+ background: url('https://www.colegiosantoantonio.com.br/wp-content/uploads/2015/09/002-blurred-background-texture-vol2.png');
+ background-attachment: fixed;
+ background-position: top center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.PricingTable h1 {
+  font-weight: 400 !important;
+  text-align: center;
+  line-height: 45px !important;
+  font-size: 30px !important;
+  margin: -1.5rem 0 2rem 0 !important;
+  color: #000;
+}
+
+.PricingTable p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 45px;
+  letter-spacing: 1px;
+  margin: -14px auto 30px !important;
+  text-align: center;
+}
+
+.swiper-container {
+  padding-bottom: 40px;
+}
+
+.PricingTable .container-slider {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: unset;
+}
+
+.PricingTable .panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.PricingTable .pricing-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .PricingTable .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.PricingTable .pricing-plan {
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px; 
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 35px; 
+  width: 280px !important;
+  background: #f0e9dc;
+}
+
+.PricingTable .pricing-plan:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 320px) {
+  .PricingTable .pricing-plan {
+      width: 230px !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .PricingTable .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+@media (max-width: 1080px) {
+  .PricingTable {
+    padding: 50px 0;
+    margin: -1.5rem -2rem 0 -1rem !important;
+  }
+
+  .PricingTable p {
+    line-height: 30px !important;
+    font-size: 18px !important;
+    text-align: left;
+  }
+}
+
+.PricingTable .pricing-img {
+  margin: 20px 0 5px 0;
+  max-width: 100%;
+}
+
+.PricingTable .pricing-plan img {
+  max-width: 50%;
+}
+
+.PricingTable .pricing-plan:first-child img, .PricingTable .pricing-plan:nth-child(2) img {
+  max-width: 35%;
+  padding: 24px;
+}
+
+.PricingTable .pricing-plan:nth-child(3) img, .PricingTable .pricing-plan:nth-child(7) img, .PricingTable .pricing-plan:nth-child(8) img {
+  padding: 24px;
+  max-width: 61%;
+}
+
+.PricingTable .pricing-header {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.PricingTable .pricing-features {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 20px 0 0 0;
+}
+
+.PricingTable .pricing-features-item { 
+  border-top: 1px solid #dcdcdc;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+/*
+.PricingTable .pricing-features-item:last-child {
+  border-bottom: 1px solid #dcdcdc;
+}*/
+
+.PricingTable .pricing-price {
+  color: #b38400;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.PricingTable .pricing-button { 
+  border-radius: 25px;
+  color: #60b3da;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;  
+  text-align: center;
+  border: 1px solid #60b3da;
+  letter-spacing: 1px;
+  background-color: transparent;
+  padding: 10px 20px;
+  transition: background 0.5s;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.PricingTable .pricing-button:hover,
+.PricingTable .pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.PricingTable .pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.PricingTable .pricing-button.is-featured:hover,
+.PricingTable .pricing-button.is-featured:active {
+  background-color: #269aff;
+}

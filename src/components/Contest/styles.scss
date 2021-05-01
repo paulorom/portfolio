@@ -1,0 +1,37 @@
+.Contest {
+  padding: 160px 0;
+  min-height: calc(100vh - 320px);
+  background-image: linear-gradient(-301deg, rgba(1, 18, 30, 0.8) 0%, #072540 50%, #024a7b 100%);
+ }
+
+ .Contest .container {
+  text-align: center;
+ }
+
+ .Contest h1 {
+  font-weight: 200 !important;
+  text-align: center;
+  line-height: 45px !important;
+  font-size: 30px !important;
+  margin: -1.5rem 0 2rem 0 !important;
+  color: #fff;
+}
+
+@media (max-width: 1080px) {
+  .Contest  {
+    padding: 50px 0;
+    margin: -1.5rem -2rem 0 -1rem !important;
+  }
+
+  .Contest  h1 {
+    font-size: 24px !important;
+    text-align: left;
+  }
+  
+  .Contest  p {
+    line-height: 30px !important;
+    font-size: 18px !important;
+    text-align: left;
+
+  }
+}

@@ -1,0 +1,72 @@
+.tresad {
+
+  top: 111px;
+    position: relative;
+    left: -126px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 2px solid #46b5d7;
+}
+
+.HowItWorks {
+  padding: 160px 0;
+  min-height: calc(100vh - 320px);
+  background: linear-gradient(135deg, rgba(2, 9, 18, 0.3), rgba(3, 21, 32, 0.1) 40%, 
+  rgba(5, 37, 52, 0.6) 100%), url('images/interests.jpg') #000;
+
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+ .HowItWorks .container {
+  text-align: center;
+ }
+
+ .HowItWorks h1 {
+  font-weight: 200 !important;
+  text-align: center;
+  line-height: 45px !important;
+  font-size: 30px !important;
+  margin: -1.5rem 0 2rem 0 !important;
+  color: #fff;
+}
+
+.HowItWorks h1, .HowItWorks h2, .HowItWorks h3, .HowItWorks h4, .HowItWorks h5, .HowItWorks h6 {
+  font-weight: 200 !important;
+  line-height: 45px !important;
+  color: #fff;
+}
+
+.HowItWorks h5 {
+
+}
+
+.HowItWorks p {
+  color: #fff;
+}
+
+.HowItWorks span {
+  color: #46b5d7
+}
+
+@media (max-width: 1080px) {
+  .HowItWorks  {
+    padding: 50px 0;
+    margin: -1.5rem -2rem 0 -1rem !important;
+  }
+
+  .HowItWorks  h1 {
+    font-size: 24px !important;
+    text-align: left;
+  }
+  
+  .HowItWorks  p {
+    line-height: 30px !important;
+    font-size: 18px !important;
+    text-align: left;
+
+  }
+}

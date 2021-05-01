@@ -1,0 +1,50 @@
+.FaqSection {
+    padding: 160px 0;
+    min-height: calc(100vh - 320px);
+    background-image: url(https://codex-themes.com/themes/cryption/wp-content/uploads/sites/9/2018/03/ico_bg_image_15.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+ }
+ 
+ .rc-collapse > .rc-collapse-item > .rc-collapse-header {
+    font-size: 23px !important;
+    outline: 0;
+    line-height: 24px;
+    color: #143f63 !important;
+    font-weight: 600;
+}    
+    
+.rc-collapse > .rc-collapse-item {
+    border-top: 0;
+}  
+	
+.rc-collapse {
+     background-color: transparent !important;
+     border-radius: unset !important;;
+     border: 0 !important;; 
+}
+
+.rc-collapse-content {
+    background-color: transparent;
+}
+
+.FaqSection h1 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 520px) {
+    .FaqSection {
+        padding: 50px 0;
+        min-height: calc(100vh - 100px);
+    }
+
+    .FaqSection h1 {
+        font-size: 24px !important;    
+        color: #383434;
+    }
+    
+    .rc-collapse > .rc-collapse-item > .rc-collapse-header {
+        font-size: 18px !important;
+    } 
+}
