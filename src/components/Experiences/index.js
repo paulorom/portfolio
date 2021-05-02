@@ -3,8 +3,6 @@ import PortfolioA from "./../PortfolioA";
 import Portfolio from "./../Portfolio";
 import Portfolio1 from "./../Portfolio1";
 import Portfolio2 from "./../Portfolio2";
-import Portfolio3 from "./../Portfolio3";
-import Portfolio4 from "./../Portfolio4";
 import Portfolio5 from "./../Portfolio5";
 import Portfolio6 from "./../Portfolio6";
 import Portfolio7 from "./../Portfolio7";

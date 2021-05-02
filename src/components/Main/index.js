@@ -1,7 +1,6 @@
 import React from "react";
 import CalltoAction from "./../CalltoAction";
 import Countdown from "./../Countdown";
-import Scrollchor from "react-scrollchor";
 import "./styles.scss";
 
 function Main(props) {
@@ -20,6 +19,7 @@ function Main(props) {
                 <br />
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://wa.me/5591981976107?text=Oi%20Paulo!%20Gostaria%20de%20conversar%20sobre%20..."
                   className="navbar-item"
                 >
